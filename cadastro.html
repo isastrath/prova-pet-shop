@@ -3,15 +3,49 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Acesso - Pet Shop</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-<h1>Cadastro</h1>
-<a href="./index.html">
-    <button type="button">Faça seu Login aqui!</button>
-</a>
+    <header class="background-cor">
+        <a href="./index.html" style="text-decoration: none;">
+            <h1>Pet Shop</h1>
+        </a>
+    </header>
 
-    
+    <main class="background-color">
+        <h2>Área do Cliente</h2>
+        <p>Entre com seus dados ou crie uma conta nova.</p>
+        <br>
+
+        <form>
+            <div class="campo">
+                <label>E-mail:</label><br>
+                <input type="email" placeholder="exemplo@petmail.com" required>
+            </div>
+
+            <div class="campo">
+                <label>Senha:</label><br>
+                <input type="password" placeholder="Sua senha" required>
+            </div>
+
+            <br>
+            <button type="submit">Entrar</button>
+            <button type="button" onclick="alert('Conta criada com sucesso!')">Cadastrar Novo</button>
+            
+            <br><br>
+            <a href="#" onclick="alert('Enviamos um e-mail para você redefinir a senha.')" class="link-pequeno">
+                Esqueci minha senha
+            </a>
+        </form>
+
+        <br>
+        <a href="./index.html">Voltar para a Home</a>
+    </main>
+
+    <footer>
+        <p>Rua das Palmeiras, N° 67, Cianorte</p>
+    </footer>
 </body>
 </html>
