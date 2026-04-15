@@ -1,0 +1,29 @@
+body {
+    font-family: 'times New Roman', 'sans-serif';
+
+}
+
+:root {
+    --marromclaro-petshop: #daac71d7;
+    --verdeclaro-petshop: #8bec94fa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-cor{
+    background-color: var(--marromclaro-petshop);
+    padding: 20px;
+}
+
+.background-color{
+    background-color: var(--verdeclaro-petshop);
+    padding: 20px;
+    min-height: 200px;
+}
+
+h1 {
+    color: #215e35;
+}
